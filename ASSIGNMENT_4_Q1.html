@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+</head>
+<style>
+    body{
+        background-color: rgb(14, 75, 41);
+    }
+    .Container{
+        background-color: #d21e9e;
+        border:3px solid rgb(0,0,0);
+        border-radius: 10px;
+        /*padding:-Create gaps b/w border and elements written...i.e simply create vaccent space
+        
+        margin:-It create gaps b/w two border or outside the border*/
+
+       /* padding: 7px;*/
+       /* padding-top: 75px;
+       padding-bottom: 45;
+       padding-right: 30;
+       padding-left: 22; */
+       padding: 20px,30px,45px,47px; /*top right bottom left*/
+
+       padding: 25px,45px;/*Top/bottom same and left right will be same padding*/
+
+       margin:30px; /* Clears an area outside the border.The margin is transparent*/
+
+       width: 533px;
+       
+       box-sizing:border-box;/*Fonts will adjust themself*/
+    }
+</style>
+<body>
+    <h3>Box Model:-It is used when talking about design and layout.</h3>
+<div class="Container">
+    <p id="first">Most of us wonder if there is a God and if He really is the God of the Bible. In the Bible God says ‘I will make your name great’ and today the name of Abraham/Abram is known worldwide. This promise has come true. </p>
+</div>
+<div class="Container">
+    <p id="Second">Surprisingly Abraham really did nothing important in his life.  He was not a great writer, king, inventor or military leader.  He did nothing except camp out where he was told to go and father a few children.</p>
+</div>
+<div class="Container">
+    <p id="third">The promise to Abraham came true because he trusted a promise and chose to live differently than others. Think how likely it was for this promise to have failed, but instead it has happened, and is continuing to unfold, as it was stated  thousands of years ago. </p>
+</div>
+
+
+    
+</body>
+</html>
